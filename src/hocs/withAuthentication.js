@@ -2,7 +2,7 @@ import React from 'react';
 
 function withAuthentication(WrappedComponent) {
   return function EnhancedComponent(props) {
-    const isAuthenticated = true; // Toggle this between true and false
+    const isAuthenticated = false; // Toggle this between true and false
 
     if (!isAuthenticated) {
       // Show the following message if user is not authenticated
